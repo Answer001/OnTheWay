@@ -35,7 +35,7 @@
       * 推送前如果有冲突，可先用如下命令(打开后添加：write your merge message，再退出),可合并冲突
         ```
         git merge origin/master --allow-unrelated-histories
-        ``
+        ```
       * 然后。。。
         ```
         git pull origin master
@@ -121,6 +121,7 @@
     * 如果上一步遇到了警告⚠️
       ``` 
       pod trunk push --verbose --allow-warnings
+      ```
       
       
   * 错误日志
