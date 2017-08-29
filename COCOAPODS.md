@@ -46,12 +46,10 @@
       ```
       pod search MJRefresh
       ```
-    * 如下格式，将依赖库名依次添加到Podfile中
+    * 如下格式，将依赖库名依次添加到Podfile中(swift项目中，在target下添加：use_frameworks!)
       ```
       platform:ios , '7.0'
       target '项目工程名' do
-      #swift中打开
-      #use_frameworks!
         pod 'AFNetworking', '~>3.0.4'
         pod 'MJRefresh'
       end
