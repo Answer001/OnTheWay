@@ -24,7 +24,7 @@
   
 * Mac下都自带ruby，使用ruby的gem命令下载安装：
   * 以前的安装命令
-    ```
+     ```
     sudo gem install cocoapods
     ```
   * 苹果系统升级OS X EL Capitan后改为
@@ -36,19 +36,19 @@
 
 ## Usage
   * 使用时需要新建一个名为Podfile的文件
-    * 打开终端
-    * cd到项目文件夹的根目录
-    * 使用命令新建Podfile文件
-      ```
-      vim Podfile
-      ```
+      * 打开终端
+      * cd到项目文件夹的根目录
+      * 使用命令新建Podfile文件
+        ```
+        vim Podfile
+        ```
    
    * 搜索第三方框架(如：MJRefresh)
       ```
       pod search MJRefresh
       ```
       
-    * 如下格式，将依赖库名依次添加到Podfile中(swift项目中，在target下添加：use_frameworks!)
+   * 如下格式，将依赖库名依次添加到Podfile中(swift项目中，在target下添加：use_frameworks!)
       ```
       platform:ios , '7.0'
       target '项目工程名' do
@@ -56,17 +56,17 @@
         pod 'MJRefresh'
       end
       ```
-    * 编辑完成后保存退出(i可编辑，esc退出编辑，w保存，q退出)
+  * 编辑完成后保存退出(i可编辑，esc退出编辑，w保存，q退出)
     
   * 导入第三方库文件
-    * 更新所有的库
-      ```
-      pod install
-      ```
-    * 只更新有变化的库文件
-      ```
-      pod install --no-repo-update
-      ```
+      * 更新所有的库
+        ```
+        pod install
+        ```
+      * 只更新有变化的库文件
+        ```
+        pod install --no-repo-update
+        ```
       
   
   
