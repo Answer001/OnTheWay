@@ -4,32 +4,33 @@
 * 打开终端
 
 * 如果你的gem太老，可以尝试使用如下命令升级gem:
-```
-    sudo gem update --system
-```
+  ```
+  sudo gem update --system
+  ```
 
 * 另外，ruby的软件源rubygems.org因为使用亚马逊的服务器，所以会被屏蔽，需要更新一下ruby的源，在终端输入如下命令将官方的ruby源替换成国内淘宝源：
   * 移除现有的ruby源
-  ```
-  gem sources --remove https://rubygems.org/
-  ```
+    ```
+    gem sources --remove https://rubygems.org/
+    ```
   * 使用新的ruby源
-  ```
-  gem sources -a https://ruby.taobao.org/
-  ```
+    ```
+    gem sources -a https://ruby.taobao.org/
+    ```
   * 验证新的ruby源是否替换成功
-  ```
-  gem sources -l
-  ```
+    ```
+    gem sources -l
+    ```
   
 * Mac下都自带ruby，使用ruby的gem命令下载安装：
   * 以前的安装命令
-  ```
-  sudo gem install cocoapods
-  ```
+    ```
+    sudo gem install cocoapods
+    ```
   * 苹果系统升级OS X EL Capitan后改为
-  ```
-  sudo gem install -n /usr/local/bin/cocoapods
+    ```
+    sudo gem install -n /usr/local/bin/cocoapods
+    ```
   
 
 
