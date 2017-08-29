@@ -42,10 +42,12 @@
       ```
       vim Podfile
       ```
-    * 搜索第三方框架(如：MJRefresh)
+   
+   * 搜索第三方框架(如：MJRefresh)
       ```
       pod search MJRefresh
       ```
+      
     * 如下格式，将依赖库名依次添加到Podfile中(swift项目中，在target下添加：use_frameworks!)
       ```
       platform:ios , '7.0'
