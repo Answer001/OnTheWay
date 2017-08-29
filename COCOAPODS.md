@@ -1,4 +1,4 @@
-# Cocoapods的安装和使用
+## Cocoapods的安装和使用
 
 ## Install
 * 打开终端
