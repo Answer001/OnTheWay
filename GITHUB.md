@@ -1,6 +1,6 @@
 # 我是这样在GitHub上发布自己的代码库的
 
-## 将本地代码库推送到GitHub上
+* 将本地代码库推送到GitHub上
     * 在GitHub上新建一个远程仓库
 
     * 打开终端，cd到项目文件夹根目录
@@ -44,7 +44,7 @@
         git push -u origin master
         ```
     
-  ## 将自己的代码库上传到GitHub上并用Cocoapods管理（需要再终端上将工程发布到Cocoapods上，这样才能用Cocoapods进行管理）
+  * 将自己的代码库上传到GitHub上并用Cocoapods管理（需要再终端上将工程发布到Cocoapods上，这样才能用Cocoapods进行管理）
     * 注册pod账号（如果没有pod账号）
       ```
       pod trunk register 邮箱账号 [名字]
@@ -123,7 +123,7 @@
       pod trunk push --verbose --allow-warnings
       
       
-  ## 错误日志
+  * 错误日志
       * Error
         ```
         - ERROR | [iOS] unknown: Encountered an unknown error (/Applications/Xcode.app/Contents/Developer/usr/bin/xcrun simctl list devices
