@@ -50,8 +50,10 @@
       ```
       platform:ios , '7.0'
       target '项目工程名' do
-      pod 'AFNetworking', '~>3.0.4'
-      pod 'MJRefresh'
+      #swift中打开
+      #use_frameworks!
+        pod 'AFNetworking', '~>3.0.4'
+        pod 'MJRefresh'
       end
       ```
     * 编辑完成后保存退出(i可编辑，esc退出编辑，w保存，q退出)
