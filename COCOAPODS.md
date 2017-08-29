@@ -43,17 +43,17 @@
         vim Podfile
         ```
    
-   * 搜索第三方框架(如：MJRefresh)
+  * 搜索第三方框架(如：MJRefresh)
       ```
       pod search MJRefresh
       ```
       
-   * 如下格式，将依赖库名依次添加到Podfile中(swift项目中，在target下添加：use_frameworks!)
+  * 如下格式，将依赖库名依次添加到Podfile中(swift项目中，在target下添加：use_frameworks!)
       ```
       platform:ios , '7.0'
       target '项目工程名' do
-        pod 'AFNetworking', '~>3.0.4'
-        pod 'MJRefresh'
+      pod 'AFNetworking', '~>3.0.4'
+      pod 'MJRefresh'
       end
       ```
   * 编辑完成后保存退出(i可编辑，esc退出编辑，w保存，q退出)
