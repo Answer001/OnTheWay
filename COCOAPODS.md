@@ -16,7 +16,7 @@
     ```
   * 使用新的ruby源
     ```
-    gem sources -a https://ruby.taobao.org/
+    gem sources -a https://gems.ruby-china.com/
     ```
   * 验证新的ruby源是否替换成功
     ```
